@@ -1,0 +1,589 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="TypeHasNotBeenCreatedException`0" priority="0" />
+      <Item value="string" priority="52" />
+      <Item value="if" priority="6" />
+      <Item value="_completedType" priority="0" />
+      <Item value="throw" priority="6" />
+      <Item value="new" priority="60" />
+      <Item value="TypeHasNotBeenCreatedException" priority="0" />
+      <Item value="_name" priority="0" />
+      <Item value="base" priority="2" />
+      <Item value="typeName" priority="1" />
+      <Item value="_AppDomain`0" priority="1" />
+      <Item value="prop" priority="14" />
+      <Item value="for" priority="0" />
+      <Item value="FormatException`0" priority="0" />
+      <Item value="ArrangeDescription" priority="3" />
+      <Item value="ActDescription" priority="3" />
+      <Item value="AssertDescription" priority="4" />
+      <Item value="TestContext`0" priority="2" />
+      <Item value="ITestSource`0" priority="6" />
+      <Item value="ISpecificationSource`0" priority="6" />
+      <Item value="ISpecificationAggregator" priority="4" />
+      <Item value="public" priority="74" />
+      <Item value="static" priority="7" />
+      <Item value="AbandonedMutexException" priority="0" />
+      <Item value="ISpecificationPrerequisiteBuilder" priority="10" />
+      <Item value="NotImplementedException" priority="3" />
+      <Item value="private" priority="32" />
+      <Item value="class" priority="20" />
+      <Item value="readonly" priority="12" />
+      <Item value="List" priority="5" />
+      <Item value="Action`0" priority="25" />
+      <Item value="T`0" priority="28" />
+      <Item value="Func" priority="12" />
+      <Item value="SpecificationBuilder" priority="22" />
+      <Item value="_arrangeActions" priority="3" />
+      <Item value="List&lt;Action&gt;" priority="2" />
+      <Item value="_assertActions" priority="6" />
+      <Item value="List&lt;Action&lt;T&gt;&gt;" priority="1" />
+      <Item value="List&lt;KeyValuePair&lt;string,Action&lt;T&gt;&gt;&gt;" priority="0" />
+      <Item value="_arrangeText" priority="6" />
+      <Item value="StringBuilder" priority="2" />
+      <Item value="word" priority="3" />
+      <Item value="typeof" priority="2" />
+      <Item value="condition" priority="3" />
+      <Item value="foreach" priority="14" />
+      <Item value="return" priority="49" />
+      <Item value="this" priority="10" />
+      <Item value="_actFunc" priority="3" />
+      <Item value="whenFunc" priority="2" />
+      <Item value="_actText" priority="3" />
+      <Item value="KeyValuePair&lt;string,Action&lt;T&gt;&gt;" priority="1" />
+      <Item value="assertion" priority="8" />
+      <Item value="then`0" priority="0" />
+      <Item value="void" priority="27" />
+      <Item value="IEnumerable" priority="2" />
+      <Item value="AddAssertions`0" priority="4" />
+      <Item value="assertions" priority="5" />
+      <Item value="var" priority="18" />
+      <Item value="TestFor`0" priority="1" />
+      <Item value="assertAction" priority="1" />
+      <Item value="yield return" priority="0" />
+      <Item value="TestContext" priority="3" />
+      <Item value="Test" priority="4" />
+      <Item value="arrangeAction" priority="2" />
+      <Item value="result" priority="9" />
+      <Item value="Description" priority="4" />
+      <Item value="ExtensionType`0" priority="1" />
+      <Item value="IAddin`0" priority="0" />
+      <Item value="ISuiteBuilder`0" priority="0" />
+      <Item value="host" priority="0" />
+      <Item value="suiteBuilders" priority="0" />
+      <Item value="true" priority="1" />
+      <Item value="type" priority="5" />
+      <Item value="BindingFlags" priority="0" />
+      <Item value="properties" priority="0" />
+      <Item value="propertyInfo" priority="0" />
+      <Item value="PropertyInfo`0" priority="0" />
+      <Item value="Type`0" priority="0" />
+      <Item value="Base64FormattingOptions`0" priority="0" />
+      <Item value="BindingFlags`0" priority="0" />
+      <Item value="Where`1" priority="0" />
+      <Item value="IsTestSource`0" priority="0" />
+      <Item value="GetTestSourcePropertiesFrom`0" priority="1" />
+      <Item value="Reflect`0" priority="1" />
+      <Item value="property" priority="1" />
+      <Item value="fixture" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="testSource" priority="5" />
+      <Item value="continue" priority="0" />
+      <Item value="Test`0" priority="3" />
+      <Item value="aa" priority="4" />
+      <Item value="Action" priority="1" />
+      <Item value="SortableName" priority="1" />
+      <Item value="TestInformation`0" priority="6" />
+      <Item value="name" priority="1" />
+      <Item value="TestInformation" priority="1" />
+      <Item value="CreateTestInformationFor`0" priority="0" />
+      <Item value="Tests" priority="0" />
+      <Item value="NUnitTestFixture`0" priority="3" />
+      <Item value="NUnitTestFixture" priority="0" />
+      <Item value="testFixture" priority="0" />
+      <Item value="proxy" priority="3" />
+      <Item value="TestInfo`0" priority="1" />
+      <Item value="proxyType" priority="1" />
+      <Item value="testType" priority="3" />
+      <Item value="Fixture" priority="1" />
+      <Item value="testInstance" priority="2" />
+      <Item value="methodAndFieldPair" priority="2" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="Dictionary&lt;string,Action&gt;" priority="0" />
+      <Item value="tests" priority="1" />
+      <Item value="testInformation" priority="1" />
+      <Item value="localFixture" priority="1" />
+      <Item value="Given`0" priority="7" />
+      <Item value="protected" priority="20" />
+      <Item value="StringTestBuilder`0" priority="0" />
+      <Item value="looks_real_pretty`0" priority="0" />
+      <Item value="smells_real_good`0" priority="1" />
+      <Item value="asking_it_out_on_a_date`0" priority="1" />
+      <Item value="PairwiseAttribute`0" priority="1" />
+      <Item value="instance" priority="0" />
+      <Item value="NUnit" priority="1" />
+      <Item value="Console`0" priority="0" />
+      <Item value="MethodFieldPair`0" priority="0" />
+      <Item value="assemblyName" priority="3" />
+      <Item value="ProxyBuilder`0" priority="0" />
+      <Item value="_assemblyBuilder" priority="4" />
+      <Item value="uses_lotion`0" priority="0" />
+      <Item value="it_should_not_give_you_the_time_of_day`0" priority="0" />
+      <Item value="AssemblyHelper`0" priority="2" />
+      <Item value="_assemblyName" priority="2" />
+      <Item value="ProxyType`0" priority="0" />
+      <Item value="deleteMe" priority="1" />
+      <Item value="null" priority="3" />
+      <Item value="DirectorySwapper`0" priority="0" />
+      <Item value="CodeBase" priority="0" />
+      <Item value="Directory`0" priority="0" />
+      <Item value="CultureInfo" priority="0" />
+      <Item value="HashAlgorithm" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="Version" priority="1" />
+      <Item value="Flags" priority="0" />
+      <Item value="_moduleBuilder" priority="0" />
+      <Item value="TestSuite`0" priority="1" />
+      <Item value="abstract" priority="1" />
+      <Item value="GivenTestBuilder`0" priority="0" />
+      <Item value="has_one_condition`0" priority="0" />
+      <Item value="getting_the_specifications`0" priority="2" />
+      <Item value="there_should_only_be_one_condition_called`0" priority="1" />
+      <Item value="_classUnderTest" priority="4" />
+      <Item value="TestMethodClass`0" priority="0" />
+      <Item value="GivenTestBuilder&lt;T&gt;.TestMethodClass" priority="0" />
+      <Item value="source" priority="1" />
+      <Item value="NBehave" priority="1" />
+      <Item value="Spec" priority="1" />
+      <Item value="SpecBase`0" priority="0" />
+      <Item value="using" priority="1" />
+      <Item value="int" priority="3" />
+      <Item value="loves_to_smell_posies_call_count" priority="0" />
+      <Item value="default" priority="2" />
+      <Item value="is_acted_on`0" priority="2" />
+      <Item value="Assert`0" priority="3" />
+      <Item value="_testMethodClass" priority="3" />
+      <Item value="there_should_only_be_one_call_to_the_act_method`0" priority="1" />
+      <Item value="smelling_the_posies_call_count" priority="0" />
+      <Item value="has_one_assertion`0" priority="2" />
+      <Item value="there_should_be_only_one_call_to_the_assert_message`0" priority="1" />
+      <Item value="test" priority="0" />
+      <Item value="testContext" priority="0" />
+      <Item value="_specificationContext" priority="5" />
+      <Item value="specificationContext" priority="0" />
+      <Item value="virtual" priority="4" />
+      <Item value="TClassUnderTest`0" priority="11" />
+      <Item value="TSpecificationContext`0" priority="6" />
+      <Item value="override" priority="3" />
+      <Item value="interface" priority="6" />
+      <Item value="params" priority="0" />
+      <Item value="List&lt;Action&lt;TSpecificationContext&gt;&gt;" priority="0" />
+      <Item value="OnAddArrangeActions`0" priority="0" />
+      <Item value="_whenFunc" priority="1" />
+      <Item value="MissingMethodException" priority="0" />
+      <Item value="OnAct`0" priority="0" />
+      <Item value="context" priority="21" />
+      <Item value="_context" priority="1" />
+      <Item value="BeforeTest`0" priority="0" />
+      <Item value="with_context`0" priority="1" />
+      <Item value="caller" priority="0" />
+      <Item value="struct" priority="1" />
+      <Item value="KeyValuePair" priority="0" />
+      <Item value="StringBuilder`0" priority="0" />
+      <Item value="List&lt;KeyValuePair&lt;string,Action&lt;TClassUnderTest&gt;&gt;&gt;" priority="0" />
+      <Item value="SpecificationBuilderInternals" priority="1" />
+      <Item value="_members" priority="2" />
+      <Item value="members" priority="0" />
+      <Item value="callerMemberVariables" priority="0" />
+      <Item value="SpecificationBuilder&lt;TClassUnderTest&gt;.SpecificationBuilderInternals&lt;TClassUnderTest&gt;" priority="0" />
+      <Item value="AppDomainSetup`0" priority="1" />
+      <Item value="SomethingContext`0" priority="5" />
+      <Item value="Account`0" priority="10" />
+      <Item value="long" priority="5" />
+      <Item value="IAccountService`0" priority="0" />
+      <Item value="is_not_found`0" priority="0" />
+      <Item value="is_in_good_order`0" priority="0" />
+      <Item value="is_on_a_watch_list`0" priority="0" />
+      <Item value="the_account_status_should_be_frozen`0" priority="0" />
+      <Item value="the_account_should_have_a_zero_balance`0" priority="0" />
+      <Item value="where" priority="1" />
+      <Item value="ISpecificationContextSource" priority="0" />
+      <Item value="context`1" priority="0" />
+      <Item value="TResult`0" priority="15" />
+      <Item value="ISpeceficationAggregator" priority="0" />
+      <Item value="ISpeceficationPrimaryAggregator" priority="1" />
+      <Item value="enum" priority="0" />
+      <Item value="AccountStatuses`0" priority="2" />
+      <Item value="account" priority="7" />
+      <Item value="decimal" priority="0" />
+      <Item value="IRepository" priority="0" />
+      <Item value="Dictionary&lt;long,Account&gt;" priority="0" />
+      <Item value="Accounts" priority="1" />
+      <Item value="_repository" priority="0" />
+      <Item value="accountId" priority="0" />
+      <Item value="AccountContext`0" priority="0" />
+      <Item value="Account" priority="0" />
+      <Item value="AccountRepository`0" priority="0" />
+      <Item value="Repository" priority="1" />
+      <Item value="AccountRepository" priority="0" />
+      <Item value="DateTime`0" priority="2" />
+      <Item value="TimeSpan`0" priority="0" />
+      <Item value="IWatchListService`0" priority="1" />
+      <Item value="bool" priority="0" />
+      <Item value="Answer" priority="0" />
+      <Item value="WatchListService`0" priority="1" />
+      <Item value="WatchListService" priority="1" />
+      <Item value="watchListService" priority="0" />
+      <Item value="FluentSpecificationContext`0" priority="1" />
+      <Item value="SpecificationPrerequisteBuilder" priority="1" />
+      <Item value="_fluentMetadataContext" priority="0" />
+      <Item value="FluentMetadataContext" priority="0" />
+      <Item value="text" priority="1" />
+      <Item value="CreateBuilder`1" priority="1" />
+      <Item value="getContext" priority="1" />
+      <Item value="Arrange" priority="3" />
+      <Item value="_executionInfo" priority="12" />
+      <Item value="Context" priority="2" />
+      <Item value="conditions" priority="4" />
+      <Item value="c" priority="1" />
+      <Item value="conjunction" priority="2" />
+      <Item value="AddConditions`0" priority="0" />
+      <Item value="ctor" priority="3" />
+      <Item value="FluentExecutionInformation" priority="2" />
+      <Item value="TContext`0" priority="4" />
+      <Item value="FluentExecutionInformation&lt;TContext,TResult&gt;" priority="0" />
+      <Item value="SpecificationAggregator" priority="0" />
+      <Item value="Assertion" priority="3" />
+      <Item value="Assertions" priority="0" />
+      <Item value="List&lt;Assertion&lt;TResult&gt;&gt;" priority="0" />
+      <Item value="a" priority="2" />
+      <Item value="Assert" priority="1" />
+      <Item value="when" priority="0" />
+      <Item value="GetTestFor`0" priority="0" />
+      <Item value="arrange" priority="0" />
+      <Item value="CreateTest`0" priority="0" />
+      <Item value="assert" priority="0" />
+      <Item value="namespace" priority="4" />
+      <Item value="Lingual" priority="0" />
+      <Item value="Fluent.Bdd" priority="0" />
+      <Item value="Domain" priority="0" />
+      <Item value="AccountService" priority="0" />
+      <Item value="AccountService`0" priority="0" />
+      <Item value="AccountServiceTestBuilder`0" priority="0" />
+      <Item value="_watchListService" priority="0" />
+      <Item value="Frozen" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="AppendFormat`0" priority="3" />
+      <Item value="ToString`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="2" />
+      <Item value="GetProperties`0" priority="1" />
+      <Item value="IsAssignableFrom`0" priority="0" />
+      <Item value="Assembly" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="AddRange`0" priority="4" />
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Action">
+      <Item value="Method" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MethodInfo">
+      <Item value="Name" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Replace`0" priority="9" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Func`1">
+      <Item value="Method" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Action`1">
+      <Item value="Method" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Value" priority="0" />
+      <Item value="Key" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Core.Extensibility.ExtensionType">
+      <Item value="Core" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NUnit.Core.Extensibility.IExtensionHost">
+      <Item value="GetExtensionPoint`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NUnit.Core.Extensibility.IExtensionPoint">
+      <Item value="Install`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="PropertyType" priority="0" />
+      <Item value="GetValue`0" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.BindingFlags">
+      <Item value="Public" priority="0" />
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Any`1" priority="1" />
+      <Item value="Count`1" priority="0" />
+      <Item value="Select`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Core.Reflect">
+      <Item value="Construct`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.ITestSource">
+      <Item value="Tests" priority="0" />
+      <Item value="TestContext" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.TestContext">
+      <Item value="Tests" priority="1" />
+      <Item value="ArrangeDescription" priority="0" />
+      <Item value="ActDescription" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Proxy.ProxyBuilder">
+      <Item value="CreateClass`0" priority="0" />
+      <Item value="SaveAssembly`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Proxy.ProxyType">
+      <Item value="CreateMethodThatExecutionsAnActionDelegate`0" priority="0" />
+      <Item value="CompleteType`0" priority="0" />
+      <Item value="MethodAndFieldPairs" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.TestInformation">
+      <Item value="AssertDescription" priority="1" />
+      <Item value="Test" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Proxy.MethodFieldPair">
+      <Item value="Field" priority="0" />
+      <Item value="Method" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.FieldInfo">
+      <Item value="SetValue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="1" />
+      <Item value="ContainsKey`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NUnit.Core.NUnitTestFixture">
+      <Item value="Add`0" priority="2" />
+      <Item value="Fixture" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lingual.Fluent.Bdd.Given">
+      <Item value="a`1" priority="4" />
+      <Item value="an`1" priority="0" />
+      <Item value="a`2" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Fluent.Bdd.ISpecificationPrerequisiteBuilder`1">
+      <Item value="that`0" priority="3" />
+      <Item value="when`0" priority="2" />
+      <Item value="with_context`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Fluent.Bdd.ISpecificationAggregator`1">
+      <Item value="then`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Emit.AssemblyBuilderAccess">
+      <Item value="RunAndSave" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Emit.AssemblyBuilder">
+      <Item value="Save`0" priority="1" />
+      <Item value="GetName`0" priority="1" />
+      <Item value="CodeBase" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.AssemblyName">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Core.AssemblyHelper">
+      <Item value="GetDirectoryName`0" priority="0" />
+      <Item value="GetAssemblyPath`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="GetCurrentDirectory`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Tests.UnitTests.Fluent.Bdd.GivenTestBuilder`1+TestMethodClass">
+      <Item value="loves_to_smell_posies`0" priority="0" />
+      <Item value="smelling_the_posies`0" priority="0" />
+      <Item value="smelling_the_posies_call_count" priority="0" />
+      <Item value="the_posies_should_smell_great`0" priority="0" />
+      <Item value="the_posies_should_smell_great_call_count" priority="0" />
+      <Item value="loves_to_smell_posies_call_count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Fluent.Bdd.SpecificationBuilder`1">
+      <Item value="ArrangeActions" priority="1" />
+      <Item value="when`0" priority="0" />
+      <Item value="then`0" priority="0" />
+      <Item value="TestContext" priority="0" />
+      <Item value="that`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ShouldEqual`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="AreEqual`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Fluent.Bdd.ISpecificationPrerequisiteBuilder`2">
+      <Item value="that`0" priority="0" />
+      <Item value="when`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Fluent.Bdd.SpecificationBuilderInternals`1">
+      <Item value="Act" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SomethingContext">
+      <Item value="AccountService" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IAccountService">
+      <Item value="GetAccount`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AccountStatuses">
+      <Item value="Frozen" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Account">
+      <Item value="Status" priority="0" />
+      <Item value="TotalBalance" priority="0" />
+      <Item value="LastActivityDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IRepository`1">
+      <Item value="Get`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AccountContext">
+      <Item value="Account" priority="3" />
+      <Item value="AccountId" priority="2" />
+      <Item value="Repository" priority="0" />
+      <Item value="WatchListService" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AccountRepository">
+      <Item value="Accounts" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Today" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Subtract`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="FromDays`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WatchListService">
+      <Item value="Answer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Fluent.Bdd.FluentMetadataContext">
+      <Item value="Description" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Fluent.Bdd.FluentExecutionInformation`1">
+      <Item value="Arrange" priority="1" />
+      <Item value="Expand`1" priority="0" />
+      <Item value="Description" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Fluent.Bdd.FluentExecutionInformation`2">
+      <Item value="Assertions" priority="1" />
+      <Item value="Act" priority="1" />
+      <Item value="ActDescription" priority="1" />
+      <Item value="ArrangeDescription" priority="0" />
+      <Item value="Context" priority="0" />
+      <Item value="Arrange" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Func`2">
+      <Item value="Method" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Fluent.Bdd.Assertion`1">
+      <Item value="Description" priority="1" />
+      <Item value="Assert" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Tests.Fluent.Bdd.AccountContext">
+      <Item value="AccountId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Tests.Domain.IWatchListService">
+      <Item value="IsOnWatchList`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lingual.Tests.Domain.Account">
+      <Item value="Id" priority="0" />
+      <Item value="Status" priority="0" />
+      <Item value="LastActivityDate" priority="0" />
+      <Item value="TotalBalance" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="8A8598B6-D865-4CB2-851E-E0FDDA9A8950/f:TypeHasAlreadyBeenCreatedException.cs" caret="318" fromTop="8" />
+      <File id="8A8598B6-D865-4CB2-851E-E0FDDA9A8950/f:TypeHasNotBeenCreatedException.cs" caret="256" fromTop="8" />
+      <File id="8A8598B6-D865-4CB2-851E-E0FDDA9A8950/f:ProxyType.cs" caret="1893" fromTop="13" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/f:ITestSource.cs" caret="131" fromTop="5" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/f:TestContext.cs" caret="187" fromTop="7" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/f:TestInformation.cs" caret="211" fromTop="7" />
+      <File id="8A8598B6-D865-4CB2-851E-E0FDDA9A8950/f:ProxyBuilder.cs" caret="159" fromTop="5" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/d:Fluent/d:Bdd/f:ISpecificationSource.cs" caret="105" fromTop="3" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/d:Fluent/d:Bdd/f:ISpecificationAggregator.cs" caret="157" fromTop="4" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/d:Fluent/d:Bdd/f:FluentExecutionInformation.cs" caret="790" fromTop="10" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/d:Fluent/d:Bdd/f:SpecificationPrerequisteBuilder.cs" caret="1353" fromTop="34" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/d:Fluent/d:Bdd/f:Given.cs" caret="1040" fromTop="33" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:IRepository.cs" caret="0" fromTop="0" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:IWatchListService.cs" caret="0" fromTop="0" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:FakeWatchListService.cs" caret="31" fromTop="1" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:FakeAccountRepository.cs" caret="160" fromTop="4" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:AccountStatuses.cs" caret="90" fromTop="3" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/d:Fluent/d:Bdd/f:SpecificationAggregator.cs" caret="2953" fromTop="11" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:Account.cs" caret="0" fromTop="0" />
+      <File id="9E266364-DBD4-4D2E-8DA3-C4D6499ED032/f:LingualAddin.cs" caret="206" fromTop="7" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:AccountService.cs" caret="892" fromTop="25" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:GivenTests.cs" caret="2041" fromTop="23" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:FakeAccountRepository.cs" caret="438" fromTop="14" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:AccountStatuses.cs" caret="116" fromTop="5" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:FakeWatchListService.cs" caret="290" fromTop="1" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:FakeWatchListService.cs" caret="291" fromTop="9" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:Account.cs" caret="290" fromTop="3" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:Account.cs" caret="291" fromTop="10" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:AccountService.cs" caret="909" fromTop="1" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:IWatchListService.cs" caret="139" fromTop="5" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:IRepository.cs" caret="112" fromTop="5" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:FakeWatchListService.cs" caret="31" fromTop="1" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:FakeAccountRepository.cs" caret="160" fromTop="4" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/d:Fluent/d:Bdd/f:SpecificationAggregator.cs" caret="769" fromTop="18" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/d:Fluent/d:Bdd/f:SpecificationAggregator.cs" caret="942" fromTop="23" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/d:Fluent/d:Bdd/f:SpecificationAggregator.cs" caret="3064" fromTop="32" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/d:Fluent/d:Bdd/f:SpecificationAggregator.cs" caret="1858" fromTop="23" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:GivenTests.cs" caret="2687" fromTop="27" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:AccountService.cs" caret="63" fromTop="1" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:AccountStatuses.cs" caret="90" fromTop="3" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:GivenTests.cs" caret="2052" fromTop="29" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/d:Fluent/d:Bdd/f:SpecificationAggregator.cs" caret="1279" fromTop="0" />
+      <File id="B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE/d:Fluent/d:Bdd/f:SpecificationAggregator.cs" caret="2953" fromTop="11" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:GivenTests.cs" caret="1885" fromTop="35" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:GivenTests.cs" caret="1179" fromTop="32" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:GivenTests.cs" caret="156" fromTop="1" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:Domain/f:AccountService.cs" caret="892" fromTop="25" />
+      <File id="9E266364-DBD4-4D2E-8DA3-C4D6499ED032/f:LingualAddin.cs" caret="206" fromTop="7" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:GivenTests.cs" caret="2444" fromTop="25" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:GivenTests.cs" caret="2330" fromTop="27" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:GivenTests.cs" caret="1971" fromTop="18" />
+      <File id="32591820-BA60-458D-A11D-87D2896F8AEE/d:UnitTests/d:Fluent/d:Bdd/f:GivenTests.cs" caret="95" fromTop="2" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.3\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

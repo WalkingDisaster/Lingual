@@ -1,0 +1,9 @@
+D:\Projects\Lingual\Lingual.Extensions.NUnit\bin\Debug\Lingual.Extensions.NUnit.dll
+D:\Projects\Lingual\Lingual.Extensions.NUnit\bin\Debug\Lingual.Extensions.NUnit.pdb
+D:\Projects\Lingual\Lingual.Extensions.NUnit\bin\Debug\Lingual.dll
+D:\Projects\Lingual\Lingual.Extensions.NUnit\bin\Debug\Lingual.Proxy.dll
+D:\Projects\Lingual\Lingual.Extensions.NUnit\bin\Debug\Lingual.Proxy.pdb
+D:\Projects\Lingual\Lingual.Extensions.NUnit\bin\Debug\Lingual.pdb
+D:\Projects\Lingual\Lingual.Extensions.NUnit\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Lingual\Lingual.Extensions.NUnit\obj\Debug\Lingual.Extensions.NUnit.dll
+D:\Projects\Lingual\Lingual.Extensions.NUnit\obj\Debug\Lingual.Extensions.NUnit.pdb
