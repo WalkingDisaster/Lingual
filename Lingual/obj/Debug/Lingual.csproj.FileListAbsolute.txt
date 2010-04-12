@@ -1,5 +1,0 @@
-D:\Projects\Lingual\Lingual\obj\Debug\ResolveAssemblyReference.cache
-D:\Projects\Lingual\Lingual\bin\Debug\Lingual.dll
-D:\Projects\Lingual\Lingual\bin\Debug\Lingual.pdb
-D:\Projects\Lingual\Lingual\obj\Debug\Lingual.dll
-D:\Projects\Lingual\Lingual\obj\Debug\Lingual.pdb

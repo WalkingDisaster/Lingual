@@ -1,9 +1,0 @@
-D:\Projects\Lingual\Lingual.Tests\bin\Debug\Lingual.Tests.dll
-D:\Projects\Lingual\Lingual.Tests\bin\Debug\Lingual.Tests.pdb
-D:\Projects\Lingual\Lingual.Tests\bin\Debug\Lingual.dll
-D:\Projects\Lingual\Lingual.Tests\bin\Debug\nunit.framework.dll
-D:\Projects\Lingual\Lingual.Tests\bin\Debug\Lingual.pdb
-D:\Projects\Lingual\Lingual.Tests\bin\Debug\nunit.framework.xml
-D:\Projects\Lingual\Lingual.Tests\obj\Debug\ResolveAssemblyReference.cache
-D:\Projects\Lingual\Lingual.Tests\obj\Debug\Lingual.Tests.dll
-D:\Projects\Lingual\Lingual.Tests\obj\Debug\Lingual.Tests.pdb
