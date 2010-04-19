@@ -49,13 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LingualAddin.cs" />
+    <Compile Include="LingualTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lingual.Proxy\Lingual.Proxy.csproj">
-      <Project>{8A8598B6-D865-4CB2-851E-E0FDDA9A8950}</Project>
-      <Name>Lingual.Proxy</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Lingual\Lingual.csproj">
       <Project>{B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE}</Project>
       <Name>Lingual</Name>

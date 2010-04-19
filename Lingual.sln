@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lingual.Proxy", "Lingual.Proxy\Lingual.Proxy.csproj", "{8A8598B6-D865-4CB2-851E-E0FDDA9A8950}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lingual", "Lingual\Lingual.csproj", "{B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lingual.Extensions.NUnit", "Lingual.Extensions.NUnit\Lingual.Extensions.NUnit.csproj", "{9E266364-DBD4-4D2E-8DA3-C4D6499ED032}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8A8598B6-D865-4CB2-851E-E0FDDA9A8950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A8598B6-D865-4CB2-851E-E0FDDA9A8950}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A8598B6-D865-4CB2-851E-E0FDDA9A8950}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A8598B6-D865-4CB2-851E-E0FDDA9A8950}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B01A1DDD-2F99-464E-9DE7-B28A2C4D24BE}.Release|Any CPU.ActiveCfg = Release|Any CPU

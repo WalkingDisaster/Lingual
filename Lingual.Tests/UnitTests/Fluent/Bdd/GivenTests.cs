@@ -40,7 +40,7 @@ namespace Lingual.Tests.Fluent.Bdd
 
     public class AccountServiceTests : AccountServiceTestBuilder
     {
-        public ITestSource MyTest
+        public ISpecificationSource MyTest
         {
             get
             {
@@ -52,7 +52,8 @@ namespace Lingual.Tests.Fluent.Bdd
                     .when(getting_the_account)
                     .then(the_account_status_should_be_frozen,
                           the_account_should_have_a_zero_balance,
-                          the_account_should_have_an_activity_date_of_today);
+                          the_account_should_have_an_activity_date_of_today)
+                    .should(give_me_all_the_money);
             }
         }
 
@@ -69,6 +70,11 @@ namespace Lingual.Tests.Fluent.Bdd
         protected void the_account_should_have_an_activity_date_of_today(Account account)
         {
             Assert.AreEqual(DateTime.Today, account.LastActivityDate);
+        }
+
+        protected void give_me_all_the_money(Account account)
+        {
+            Assert.Fail("asdf");
         }
     }
 
