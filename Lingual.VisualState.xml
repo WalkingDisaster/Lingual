@@ -5,12 +5,5 @@
   <ExcludeCategories>false</ExcludeCategories>
   <Nodes>
     <Node UniqueName="[0-1000]D:\Projects\Lingual\Lingual.nunit" Expanded="true" />
-    <Node UniqueName="[0-1003]D:\Projects\Lingual\Lingual.Tests\bin\Debug\Lingual.Tests.dll" Expanded="true" />
-    <Node UniqueName="[0-1004]Lingual" Expanded="true" />
-    <Node UniqueName="[0-1005]Lingual.Tests" Expanded="true" />
-    <Node UniqueName="[0-1006]Lingual.Tests.Fluent" Expanded="true" />
-    <Node UniqueName="[0-1007]Lingual.Tests.Fluent.Bdd" Expanded="true" />
-    <Node UniqueName="[0-1001]Lingual.Tests.Fluent.Bdd.AccountServiceTests" Expanded="true" />
-    <Node UniqueName="[0-1002]Given an AccountContext that contains an account which has a positive balance which has had activity in the last year but is on a watch list when getting the account" Expanded="true" />
   </Nodes>
 </VisualState>
