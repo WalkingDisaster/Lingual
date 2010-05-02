@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Lingual.Fluent.Bdd
 {
-    public class SpecificationAggregator<TContext, TResult> : ISpecificationAggregator<TResult>
+    public class SpecificationAggregator<TContext, TResult> : ISpecificationAggregator<TContext, TResult>
     {
         private readonly FluentExecutionInformation<TContext, TResult> _executionInfo;
 
@@ -15,12 +15,12 @@ namespace Lingual.Fluent.Bdd
             _executionInfo.ActDescription = string.Format("when {0}", when.Method.Name.Replace("_", " "));
         }
 
-        public ISpecificationAggregator<TResult> then(params Action<TResult>[] assertions)
+        public ISpecificationAggregator<TContext, TResult> then(params Action<TContext, TResult>[] assertions)
         {
             return AddAssertions("then", assertions);
         }
 
-        public ISpecificationAggregator<TResult> should(params Action<TResult>[] assertions)
+        public ISpecificationAggregator<TContext, TResult> should(params Action<TContext, TResult>[] assertions)
         {
             return AddAssertions("should", assertions);
         }
@@ -38,10 +38,10 @@ namespace Lingual.Fluent.Bdd
             }
         }
 
-        private ISpecificationAggregator<TResult> AddAssertions(string conjunction, IEnumerable<Action<TResult>> assertions)
+        private ISpecificationAggregator<TContext, TResult> AddAssertions(string conjunction, IEnumerable<Action<TContext, TResult>> assertions)
         {
             _executionInfo.Assertions.AddRange(assertions.Select(
-                a => new Assertion<TResult>
+                a => new Assertion<TContext, TResult>
                          {
                              Description = string.Format("{0} {1}", conjunction, a.Method.Name.Replace("_", " ")),
                              Assert = a
@@ -49,12 +49,12 @@ namespace Lingual.Fluent.Bdd
             return this;
         }
 
-        private IEnumerable<TestInformation> GetTestsFor(IEnumerable<Assertion<TResult>> assertions)
+        private IEnumerable<TestInformation> GetTestsFor(IEnumerable<Assertion<TContext, TResult>> assertions)
         {
             return assertions.Select(CreateTest);
         }
 
-        private TestInformation CreateTest(Assertion<TResult> assertion)
+        private TestInformation CreateTest(Assertion<TContext, TResult> assertion)
         {
             return new TestInformation
                        {
@@ -64,7 +64,7 @@ namespace Lingual.Fluent.Bdd
                        };
         }
 
-        private Action CreateTestFor(Action<TResult> assert)
+        private Action CreateTestFor(Action<TContext, TResult> assert)
         {
             return () =>
                        {
@@ -74,7 +74,7 @@ namespace Lingual.Fluent.Bdd
                                arrange(context);
                            }
                            var result = _executionInfo.Act(context);
-                           assert(result);
+                           assert(context, result);
                        };
         }
     }

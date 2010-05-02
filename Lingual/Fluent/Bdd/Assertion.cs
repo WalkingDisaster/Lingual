@@ -2,9 +2,9 @@
 
 namespace Lingual.Fluent.Bdd
 {
-    public class Assertion<TResult>
+    public class Assertion<TContext, TResult>
     {
         public string Description { get; set; }
-        public Action<TResult> Assert { get; set; }
+        public Action<TContext, TResult> Assert { get; set; }
     }
 }

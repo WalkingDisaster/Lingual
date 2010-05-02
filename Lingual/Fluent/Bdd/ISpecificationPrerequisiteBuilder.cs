@@ -7,6 +7,6 @@ namespace Lingual.Fluent.Bdd
         ISpecificationPrerequisiteBuilder<TContext> that(params Action<TContext>[] conditions);
         ISpecificationPrerequisiteBuilder<TContext> which(params Action<TContext>[] conditions);
         ISpecificationPrerequisiteBuilder<TContext> but(params Action<TContext>[] conditions);
-        ISpeceficationPrimaryAggregator<TResult> when<TResult>(Func<TContext, TResult> when);
+        ISpeceficationPrimaryAggregator<TContext, TResult> when<TResult>(Func<TContext, TResult> when);
     }
 }

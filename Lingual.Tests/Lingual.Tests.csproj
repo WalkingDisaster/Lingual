@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NBehave.Spec.NUnit">
+      <HintPath>..\lib\NBehave\NBehave.Spec.NUnit.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework, Version=2.5.4.10098, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\lib\NUnit\net-2.0\framework\nunit.framework.dll</HintPath>
@@ -53,6 +56,8 @@
     <Compile Include="Domain\IRepository.cs" />
     <Compile Include="Domain\IWatchListService.cs" />
     <Compile Include="UnitTests\Fluent\Bdd\FakeWatchListService.cs" />
+    <Compile Include="ZipCode.cs" />
+    <Compile Include="ZipCodeTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Lingual\Lingual.csproj">

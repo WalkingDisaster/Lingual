@@ -2,9 +2,9 @@
 
 namespace Lingual.Fluent.Bdd
 {
-    public interface ISpeceficationPrimaryAggregator<T>
+    public interface ISpeceficationPrimaryAggregator<TContext, TResult>
     {
-        ISpecificationAggregator<T> then(params Action<T>[] assertions);
-        ISpecificationAggregator<T> should(params Action<T>[] assertions);
+        ISpecificationAggregator<TContext, TResult> then(params Action<TContext, TResult>[] assertions);
+        ISpecificationAggregator<TContext, TResult> should(params Action<TContext, TResult>[] assertions);
     }
 }

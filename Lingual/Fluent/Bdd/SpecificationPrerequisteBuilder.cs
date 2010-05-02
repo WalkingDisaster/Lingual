@@ -3,40 +3,40 @@ using System.Collections.Generic;
 
 namespace Lingual.Fluent.Bdd
 {
-    public class SpecificationPrerequisteBuilder<T> : ISpecificationPrerequisiteBuilder<T>
+    public class SpecificationPrerequisteBuilder<TContext> : ISpecificationPrerequisiteBuilder<TContext>
     {
-        private readonly FluentExecutionInformation<T> _executionInfo;
+        private readonly FluentExecutionInformation<TContext> _executionInfo;
 
-        public SpecificationPrerequisteBuilder(string text, Func<T> context)
+        public SpecificationPrerequisteBuilder(string text, Func<TContext> context)
         {
-            _executionInfo = new FluentExecutionInformation<T>
+            _executionInfo = new FluentExecutionInformation<TContext>
                                  {
                                      Context = context
                                  };
-            _executionInfo.ArrangeDescription.AppendFormat("{0} {1}", text, typeof(T).Name);
+            _executionInfo.ArrangeDescription.AppendFormat("{0} {1}", text, typeof(TContext).Name);
         }
 
-        public ISpecificationPrerequisiteBuilder<T> that(params Action<T>[] conditions)
+        public ISpecificationPrerequisiteBuilder<TContext> that(params Action<TContext>[] conditions)
         {
             return AddConditions("that", conditions);
         }
 
-        public ISpecificationPrerequisiteBuilder<T> which(params Action<T>[] conditions)
+        public ISpecificationPrerequisiteBuilder<TContext> which(params Action<TContext>[] conditions)
         {
             return AddConditions("which", conditions);
         }
 
-        public ISpecificationPrerequisiteBuilder<T> but(params Action<T>[] conditions)
+        public ISpecificationPrerequisiteBuilder<TContext> but(params Action<TContext>[] conditions)
         {
             return AddConditions("but", conditions);
         }
 
-        public ISpeceficationPrimaryAggregator<TResult> when<TResult>(Func<T, TResult> when)
+        public ISpeceficationPrimaryAggregator<TContext, TResult> when<TResult>(Func<TContext, TResult> when)
         {
-            return new SpecificationAggregator<T, TResult>(_executionInfo.Expand<TResult>(), when);
+            return new SpecificationAggregator<TContext, TResult>(_executionInfo.Expand<TResult>(), when);
         }
 
-        private ISpecificationPrerequisiteBuilder<T> AddConditions(string conjunction, IEnumerable<Action<T>> conditions)
+        private ISpecificationPrerequisiteBuilder<TContext> AddConditions(string conjunction, IEnumerable<Action<TContext>> conditions)
         {
             foreach (var condition in conditions)
             {

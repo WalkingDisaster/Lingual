@@ -8,11 +8,11 @@ namespace Lingual.Fluent.Bdd
     {
         public Func<TContext, TResult> Act { get; set; }
         public string ActDescription { get; set; }
-        public List<Assertion<TResult>> Assertions { get; private set; }
+        public List<Assertion<TContext, TResult>> Assertions { get; private set; }
 
         public FluentExecutionInformation()
         {
-            Assertions = new List<Assertion<TResult>>();
+            Assertions = new List<Assertion<TContext, TResult>>();
         }
     }
 

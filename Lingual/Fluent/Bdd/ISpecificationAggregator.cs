@@ -1,6 +1,6 @@
 ﻿namespace Lingual.Fluent.Bdd
 {
-    public interface ISpecificationAggregator<T> : ISpeceficationPrimaryAggregator<T>, ISpecificationSource
+    public interface ISpecificationAggregator<TContext, TResult> : ISpeceficationPrimaryAggregator<TContext, TResult>, ISpecificationSource
     {
     }
 }

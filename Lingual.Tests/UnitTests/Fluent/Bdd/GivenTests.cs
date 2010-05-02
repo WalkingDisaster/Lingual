@@ -57,24 +57,24 @@ namespace Lingual.Tests.Fluent.Bdd
             }
         }
 
-        protected void the_account_status_should_be_frozen(Account account)
+        protected void the_account_status_should_be_frozen(AccountContext context, Account account)
         {
             Assert.AreEqual(AccountStatuses.Frozen, account.Status);
         }
 
-        protected void the_account_should_have_a_zero_balance(Account account)
+        protected void the_account_should_have_a_zero_balance(AccountContext context, Account account)
         {
             Assert.AreEqual(0m, account.TotalBalance);
         }
 
-        protected void the_account_should_have_an_activity_date_of_today(Account account)
+        protected void the_account_should_have_an_activity_date_of_today(AccountContext context, Account account)
         {
             Assert.AreEqual(DateTime.Today, account.LastActivityDate);
         }
 
-        protected void give_me_all_the_money(Account account)
+        protected void give_me_all_the_money(AccountContext context, Account account)
         {
-            Assert.Fail("asdf");
+            Assert.Fail("Failed on purpose");
         }
     }
 
